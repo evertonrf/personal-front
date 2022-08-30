@@ -1,7 +1,24 @@
+import "./styles/home.css"
+
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
+    <div className="menu">
+      <menu>
+        <ul>
+          <li>
+            <a href="">Aboult</a>
+          </li>
+          <li>
+            <a href="">Skills</a>
+          </li>
+          <li>
+            <a href="">Publishies</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </menu>
     </div>
   )
 }

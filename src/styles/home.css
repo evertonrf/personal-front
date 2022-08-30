@@ -1,0 +1,21 @@
+menu {
+  position: fixed;
+  width: 100%;
+}
+
+menu ul {
+  display: flex;
+  
+}
+menu ul li {
+  list-style-type: none;
+  margin-right: 42px;
+}
+menu ul li a {
+  display: block;
+  padding: 18px 0;
+  border-bottom: 1px solid transparent;
+}
+menu ul li a:hover{
+  border-bottom-color: #B9B9B9;
+}
