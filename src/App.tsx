@@ -2,11 +2,11 @@ import "./styles/home.css"
 
 function App() {
   return (
-    <div className="menu">
+    <>
       <menu>
         <ul>
           <li>
-            <a href="">Aboult</a>
+            <a href="">About</a>
           </li>
           <li>
             <a href="">Skills</a>
@@ -19,7 +19,11 @@ function App() {
           </li>
         </ul>
       </menu>
-    </div>
+
+      <div className="container">
+        <h1>Hello World</h1>
+      </div>
+    </>
   )
 }
 export default App
