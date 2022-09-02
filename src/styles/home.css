@@ -6,9 +6,7 @@ menu {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  /* background: blue; */
 }
-
 menu ul {
   display: flex;  
 }
@@ -26,7 +24,32 @@ menu ul li a:hover{
   border-bottom-color: #B9B9B9;
 }
 .container {
-  /* background: red; */
-  margin: 200px auto;
+  margin: 200px auto 0;
   width: 1200px;
+}
+.container h3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7fd1ba;
+  background: #88DAC3;
+  padding: 10px;
+  border-radius: 20px 20px 20px 0;
+  width: 130px;
+  text-align: center;
+  color: #fdfdfd;
+  font-size: 14px;
+}
+.container h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #292929;
+  padding: 10px 0 0;
+}
+.container h2 {
+  color: #292929;
+  font-size: 18px;
+}
+.container .icons {
+  margin-top: 9px;
+  width: 50%;
 }
