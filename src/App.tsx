@@ -26,17 +26,17 @@ function App() {
         <h1>Gustavo Delfim</h1>
         <h2>Developer Engineer</h2>
         <div className="icons">
-          <a href="https://github.com/GustavoDelfim" target="_blank">
-          <GithubLogo size={28} />
+          <a href="https://github.com/GustavoDelfim" target="_blank" >
+            <GithubLogo size={22} />
           </a>
           <a href="https://www.linkedin.com/in/gustavodelfim/" target="_blank">
-          <LinkedinLogo size={28} />
+            <LinkedinLogo size={22} />
           </a>
           <a href="https://medium.com/@gusttavodelfim" target="_blank">
-          <MediumLogo size={28} />
+            <MediumLogo size={22} />
           </a>
           <a href="https://www.instagram.com/gustavo.delfim/" target="_blank">
-          <InstagramLogo size={28} />
+            <InstagramLogo size={22}  />
           </a>
         </div>
       </div>
