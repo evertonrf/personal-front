@@ -62,15 +62,34 @@ menu ul li a:hover{
 .container .icons a:hover {
   color: #7fd1ba;
 }
-.imgUser {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-
-}
 .imgUser img {
   border-radius: 50%;
-  width: 340px;
-  border: #d7d7d7 solid 3mm;
-  
+  width: 300px;
+  border: #d8d8d8 solid 15px;
+}
+.containerPai {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imgUser {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.about { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.imageAbout {
+  background: red;
+  justify-content: flex-start;
+}
+.content {
+  background: blue;
+  justify-content: flex-end;
 }
