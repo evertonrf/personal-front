@@ -1,5 +1,6 @@
 import "./styles/home.css"
 import { InstagramLogo, GithubLogo, LinkedinLogo, MediumLogo } from "phosphor-react";
+import userImg from "./styles/image/user.jpg"
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
           <a href="https://www.instagram.com/gustavo.delfim/" target="_blank">
             <InstagramLogo size={22}  />
           </a>
+        </div>
+        <div className="imgUser">
+          <img src={userImg} alt="user image" />
         </div>
       </div>
     </>
