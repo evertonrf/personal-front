@@ -79,17 +79,37 @@ menu ul li a:hover{
   display: flex;
 }
 
-.about { 
+.about {
+  margin: 200px auto 0;
+  width: 1200px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
 
 }
-.imageAbout {
-  background: red;
-  justify-content: flex-start;
+.imageAbout img {
+  width: 280px;
 }
 .content {
-  background: blue;
-  justify-content: flex-end;
+  margin: 40px 0 auto;
+  /* background: blue; */
+  /* justify-content: flex-end; */
+}
+.content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #292929;
+  padding: 10px 0 0;
+}
+.content h4 {
+  margin: 40px 0;
+}
+.content .language p {
+  padding: 2px 5px;
+  margin-right: 10px;
+  border-radius: 10%;
+  border: 1px solid #BDF5EA;
+  text-align: center;
+  float: left;
+  
 }

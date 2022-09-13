@@ -50,18 +50,26 @@ function App() {
         </div>
       </div>
 
-      <div className="about">
-        <div>
+      <div>
+        <div className="about">
           <div className="imageAbout">
             <img src="/public/image/about.png" alt="About image" />
           </div>
           <div className="content">
             <h1>About Me</h1>
             <h4>Hello, I'm Gustavo, Web-developer . . . .. . . .  . . .. . </h4>
-            <div>
-              <p>JavaScript</p>
+            <div className="language">
+              <p>Typescript</p>
               <p>React</p>
               <p>Node.Js</p>
+              <p>Next.Js</p>
+              <p>Docker</p>
+              <p>Postgres</p>
+              <p>MongoDB</p>
+              <p>GraphQL</p>
+            </div>
+            <div className="curriculum">
+              <button>Download CV</button>
             </div>
           </div>
         </div>
