@@ -23,11 +23,10 @@ menu ul li a {
 menu ul li a:hover{
   border-bottom-color: #B9B9B9;
 }
-.container {
-  margin: 200px auto 0;
-  width: 1200px;
-}
-.container h3 {
+
+
+/*Home*/
+.home h3 {
   border-style: solid;
   border-width: 2px;
   border-color: #7fd1ba;
@@ -39,77 +38,101 @@ menu ul li a:hover{
   color: #fdfdfd;
   font-size: 14px;
 }
-.container h1 {
+.home h1 {
   font-size: 45px;
   font-weight: 700;
   color: #292929;
   padding: 10px 0 0;
 }
-.container h2 {
+.home h2 {
   color: #292929;
   font-size: 18px;
 }
-.container .icons {
+.home .icons {
   margin-top: 9px;
   
 }
-.container .icons a {
+.home .icons a {
   margin-right: 10px;
   display: inline-block;
   padding: 7px;
   transition: 0.2s;
 }
-.container .icons a:hover {
+.home .icons a:hover {
   color: #7fd1ba;
 }
-.imgUser img {
-  border-radius: 50%;
-  width: 300px;
-  border: #d8d8d8 solid 15px;
-}
-.containerPai {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.imgUser {
+.home .imgUser {
   padding: 15px;
   border-radius: 50%;
   background-color: #f0f0f0;
   display: flex;
 }
-
-.about {
-  margin: 200px auto 0;
-  width: 1200px; 
+.home .imgUser img {
+  border-radius: 50%;
+  width: 300px;
+  border: #d8d8d8 solid 15px;
+}
+.home .containerPai {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+
+/*About*/
+.about {
+  margin: 200px auto 0;
+}
+.about .flex {
+  display: flex;
+  align-items: flex-end;
 
 }
-.imageAbout img {
-  width: 280px;
+.about .imageAbout {
+  flex: 1;
+  text-align: center;
 }
-.content {
-  margin: 40px 0 auto;
-  /* background: blue; */
-  /* justify-content: flex-end; */
+.about .imageAbout img {
+  width: 310px;
+  /* margin-left: 50px; */
+  
 }
-.content h1 {
+.about .content {
+  flex: 1;
+  padding-bottom: 7px;
+}
+.about .content h1 {
   font-size: 45px;
   font-weight: 700;
   color: #292929;
   padding: 10px 0 0;
 }
-.content h4 {
-  margin: 40px 0;
+.about .content h4 {
+  margin: 30px 0;
+  font-weight: normal;
 }
-.content .language p {
-  padding: 2px 5px;
-  margin-right: 10px;
+.about .content .language p {
+  padding: 1px 5px;
+  margin: 5px 2px;
   border-radius: 10%;
   border: 1px solid #BDF5EA;
   text-align: center;
-  float: left;
-  
+  display: inline-block;
+}
+
+.about button {
+  width: 200px;
+  border: solid;
+  border-radius: 12px;
+  border-color: #76C0AD;
+  color: #CEFEFA;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #6CCDB7;
+  transition: 0.3s;
+}
+.about button:hover {
+  color: #6CCDB7;
+  background-color: #CEFEFA;
+  border-color: #CEFEFA;
 }

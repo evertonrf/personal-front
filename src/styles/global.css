@@ -32,3 +32,8 @@ a {
 body {
   background-color: #FDFDFD;
 }
+
+.center {
+  margin: 200px auto 0;
+  width: 1200px;
+}
