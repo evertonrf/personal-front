@@ -1,5 +1,5 @@
 import "./styles/home.css"
-import { InstagramLogo, GithubLogo, LinkedinLogo, MediumLogo } from "phosphor-react";
+import { InstagramLogo, GithubLogo, LinkedinLogo, MediumLogo, Download } from "phosphor-react";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           </li>
         </ul>
       </menu>
+
       <div className="home">
         <div className="center">
           <div className="containerPai">
@@ -71,10 +72,30 @@ function App() {
                 <p>MongoDB</p>
                 <p>GraphQL</p>
               </div>
-              <button>Download CV</button>
+              <button>Download CV
+                <Download size={17} weight="fill" />
+              </button>
             </div>
           </div>
+        </div>
+      </div>
 
+
+      <div className="publishies">
+        <div className="center">
+
+          <div className="flex">
+            <div className="content">
+              <h1>Publishies</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
+            </div>
+            <div className="contentLink">
+              <a href=""><b>Go Lang:</b> How to use Graphql + Golang </a>
+              <a href=""><b>Go Lang:</b> How to use Graphql + Golang </a>
+              <a href=""><b>Go Lang:</b> How to use Graphql + Golang </a>
+              <a href=""><b>Go Lang:</b> How to use Graphql + Golang </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

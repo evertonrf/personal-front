@@ -5,7 +5,8 @@ menu {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  padding-top: 10px;
+  background: #fdfdfd;
 }
 menu ul {
   display: flex;  
@@ -78,7 +79,6 @@ menu ul li a:hover{
   align-items: center;
 }
 
-
 /*About*/
 .about {
   margin: 200px auto 0;
@@ -86,16 +86,13 @@ menu ul li a:hover{
 .about .flex {
   display: flex;
   align-items: flex-end;
-
 }
 .about .imageAbout {
   flex: 1;
-  text-align: center;
+  /* text-align: center; */
 }
 .about .imageAbout img {
   width: 310px;
-  /* margin-left: 50px; */
-  
 }
 .about .content {
   flex: 1;
@@ -113,7 +110,7 @@ menu ul li a:hover{
 }
 .about .content .language p {
   padding: 1px 5px;
-  margin: 5px 2px;
+  margin: 5px 12px 5px 0px;
   border-radius: 10%;
   border: 1px solid #BDF5EA;
   text-align: center;
@@ -121,7 +118,8 @@ menu ul li a:hover{
 }
 
 .about button {
-  width: 200px;
+  display: flex;
+  width: 150px;
   border: solid;
   border-radius: 12px;
   border-color: #76C0AD;
@@ -130,9 +128,39 @@ menu ul li a:hover{
   padding: 5px;
   background-color: #6CCDB7;
   transition: 0.3s;
+  justify-content: space-around;
 }
 .about button:hover {
   color: #6CCDB7;
   background-color: #CEFEFA;
   border-color: #CEFEFA;
+}
+
+/*publishies*/
+.publishies {
+  margin: 200px auto 0;
+}
+.publishies .flex {
+  display: flex;
+  align-items: center;
+}
+.publishies .content {
+  flex: 1;
+}
+.publishies .content h1 {
+  margin-bottom: 25px;
+}
+.publishies .content p {
+  padding-right: 90px;
+}
+.publishies .contentLink {
+  flex: 1;
+}
+.publishies .contentLink a {
+  display: block;
+  background-color: #ECECEC;
+  padding: 23px;
+  margin: 5px;
+  width: 515px;
+  
 }
